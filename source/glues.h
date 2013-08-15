@@ -38,7 +38,7 @@
    #ifndef GLAPI
       #define GLAPI GL_API
    #endif
-#elif defined (__QNXNTO__)
+#elif defined (__QNXNTO__) || defined(__linux__)
    #include <GL/gl.h>
    #include <GL/glext.h>
 #elif defined(_WIN32) && (defined(_M_IX86) || defined(_M_X64))
